@@ -77,6 +77,6 @@ function skillcrushstarter_comments($comment, $args, $depth) {
 	$comment .= '<p>' . get_comment_text() . '</p>';
 	$comment .= '</div>';
 	$comment .= '</li>';
- 
+
 	echo $comment;
 }
